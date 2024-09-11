@@ -4,7 +4,7 @@ public class LabOne {
     public static double Round(double num){ //округление до 5 знаков после запятой
         return Math.round(num * 100000.0) / 100000.0;
     }
-
+    //функции для читаемости 3 номера:
     public static double sitOne(double num) { //когда w[i] == 10
         return Round(Math.sin(num));
     }
@@ -43,7 +43,7 @@ public class LabOne {
         //2
         double[] x = new double[13];
         for (int i = 0; i < x.length; i++)
-            x[i] = Math.random() * 21 - 6;
+            x[i] = Round(Math.random() * 21 - 6);
         //3
         double[][] z = new double[11][13];
         for (int i = 0; i < 11; i++) {
