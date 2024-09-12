@@ -28,27 +28,40 @@ public class LabOne {
         power = Math.cbrt(-power);
         power = Math.exp(power);
         power = Math.asin(power);
+        //power = Math.asin(Math.exp(Math.cbrt(-Math.pow(Math.cos(num), 2))));
         return Round(Math.pow(number, power));
     }
 
     public static void print(double[][] arr){ //вывод двухмерного массива
-        System.out.println("Третье задание:");
-        for (int i = 0; i < 11; i++) {
-            System.out.println(Arrays.toString(arr[i]));
+        System.out.println("3:");
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.printf("%.5f ", arr[i][j]);
+            }
+            System.out.println();
         }
     }
 
     public static void main(String[] args) {
         //1
         short[] w = new short[] {2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22};
+        System.out.println("1:");
+        for (int i = 0; i < w.length; i++) {
+            System.out.print(w[i] + " ");
+        }
+        System.out.println();
         //2
         double[] x = new double[13];
-        for (int i = 0; i < x.length; i++)
-            x[i] = Round(Math.random() * 21 - 6);
+        System.out.println("2:");
+        for (int i = 0; i < x.length; i++) {
+            x[i] = Math.random() * 21 - 6;
+            System.out.print(x[i] + " ");
+        }
+        System.out.println();
         //3
         double[][] z = new double[11][13];
-        for (int i = 0; i < 11; i++) {
-            for (int j = 0; j < 13; j++) {
+        for (int i = 0; i < z.length; i++) {
+            for (int j = 0; j < z[i].length; j++) {
                 if (w[i] == 10)
                     z[i][j] = sitOne(x[j]);
                 else {
@@ -67,9 +80,7 @@ public class LabOne {
                 }
             }
         }
-
-        System.out.println("Первое задание: " + Arrays.toString(w));
-        System.out.println("Второе задание: " + Arrays.toString(x));
         print(z);
+        System.out.println();
     }
 }
