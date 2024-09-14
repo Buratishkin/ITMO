@@ -80,6 +80,5 @@ public class LabOne {
             }
         }
         print(z);
-        System.out.println();
     }
 }
