@@ -1,5 +1,4 @@
-import java.util.Arrays;
-
+//вариант 30903
 public class LabOne {
     public static double Round(double num){ //округление до 5 знаков после запятой
         return Math.round(num * 100000.0) / 100000.0;
@@ -43,10 +42,10 @@ public class LabOne {
 
     public static void main(String[] args) {
         //1
-        short[] w = new short[] {2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22};
+        short[] z = new short[] {2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22};
         System.out.println("1:");
-        for (int i = 0; i < w.length; i++) {
-            System.out.print(w[i] + " ");
+        for (int i = 0; i < z.length; i++) {
+            System.out.print(z[i] + " ");
         }
         System.out.println();
         //2
@@ -58,27 +57,27 @@ public class LabOne {
         }
         System.out.println();
         //3
-        double[][] z = new double[11][13];
-        for (int i = 0; i < z.length; i++) {
-            for (int j = 0; j < z[i].length; j++) {
-                if (w[i] == 10)
-                    z[i][j] = sitOne(x[j]);
+        double[][] z1 = new double[11][13];
+        for (int i = 0; i < z1.length; i++) {
+            for (int j = 0; j < z1[i].length; j++) {
+                if (z[i] == 10)
+                    z1[i][j] = sitOne(x[j]);
                 else {
-                    switch (w[i]){
+                    switch (z[i]){
                         case 6:
                         case 12:
                         case 14:
                         case 16:
                         case 18:
-                            z[i][j] =  sitTwo(x[j]);
+                            z1[i][j] =  sitTwo(x[j]);
                             break;
 
                         default:
-                            z[i][j] = sitThree(x[j]);
+                            z1[i][j] = sitThree(x[j]);
                     }
                 }
             }
         }
-        print(z);
+        print(z1);
     }
 }
