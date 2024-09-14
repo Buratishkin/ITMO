@@ -28,7 +28,6 @@ public class LabOne {
         power = Math.cbrt(-power);
         power = Math.exp(power);
         power = Math.asin(power);
-        //power = Math.asin(Math.exp(Math.cbrt(-Math.pow(Math.cos(num), 2))));
         return Round(Math.pow(number, power));
     }
 
