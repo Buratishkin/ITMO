@@ -4,25 +4,24 @@ def fib_row(dec_num):
     while arr[-1] <= dec_num: 
         arr.append(arr[len(arr)-1] + arr[len(arr)-2]) 
 
-   return arr[1 : len(arr) -1] 
+    return arr[1 : len(arr) -1] 
 
-def convert_dec_to_fib(dec_num, fib_arr, res):  
+def convert_dec_to_fib(dec_num, fib_arr):  
     if len(fib_arr) == 0 or dec_num < 0: 
         return 
         
     el_fib = fib_arr[len(fib)-1] 
 
     if el_fib > dec_num: 
-        res.append("0") 
+        print("0", end = '') 
     else: 
-        res.append("1") 
+        print("1", end = '') 
         dec_num -= el_fib  
     fib_arr.pop(len(fib) - 1)  
 
-    convert_dec_to_fib(dec_num, fib_arr, res) 
+    convert_dec_to_fib(dec_num, fib_arr) 
 
 dec_num = int(input("Введите число в десятичной системе счисления: "))  
-ans = []  
 fib = fib_row(dec_num)  
-convert_dec_to_fib(dec_num, fib, ans)  
-print(''.join(ans))
+convert_dec_to_fib(dec_num, fib)  
+
