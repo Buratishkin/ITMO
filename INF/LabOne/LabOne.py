@@ -24,4 +24,3 @@ def convert_dec_to_fib(dec_num, fib_arr):
 dec_num = int(input("Введите число в десятичной системе счисления: "))  
 fib = fib_row(dec_num)  
 convert_dec_to_fib(dec_num, fib)  
-
