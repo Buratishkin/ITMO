@@ -1,9 +1,5 @@
 //вариант 30903
 public class LabOne {
-    public static double Round(double num){ //округление до 5 знаков после запятой
-        return Math.round(num * 100000.0) / 100000.0;
-    }
-    //функции для читаемости 3 номера:
     public static double sitOne(double num) { //когда w[i] == 10
         return Round(Math.sin(num));
     }
@@ -15,13 +11,12 @@ public class LabOne {
     }
     public static double sitThree(double num) { //остальные случаи
         double number, power;
-        //большое основание
         number = Math.log1p(Math.abs(num) * (Math.abs(num) + 1));
         number += 1.0 / 3.0;
         number /= 8 * Math.pow(2.0 / 3.0 * num, 3*num);
         number = Math.pow(Math.exp(Math.exp(num)), number);
         number *= 2;
-        //не такая большая степень
+        
         power = Math.cos(num);
         power = Math.pow(power, 2);
         power = Math.cbrt(-power);
