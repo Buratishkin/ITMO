@@ -6,8 +6,7 @@
 3:
      5,10628     Infinity     Infinity      1,30832     Infinity     Infinity          NaN          NaN     Infinity      1,60530      8,72200      3,37975          NaN
      5,10628     Infinity     Infinity      1,30832     Infinity     Infinity          NaN          NaN     Infinity      1,60530      8,72200      3,37975          NaN
-     0,56640          NaN          NaN      0,28776          NaN          NaN          NaN          NaN      0,36584      1,42716      1,53574     -0,53009
-         NaN
+     0,56640          NaN          NaN      0,28776          NaN          NaN          NaN          NaN      0,36584      1,42716      1,53574     -0,53009          NaN
      5,10628     Infinity     Infinity      1,30832     Infinity     Infinity          NaN          NaN     Infinity      1,60530      8,72200      3,37975          NaN
      0,99092      0,96626      0,70155      0,14886     -0,79791      0,87003     -0,97016     -0,99867      0,35365     -0,94993      0,99998      0,81367      0,90489
      0,56640          NaN          NaN      0,28776          NaN          NaN          NaN          NaN      0,36584      1,42716      1,53574     -0,53009          NaN
