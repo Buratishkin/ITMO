@@ -72,7 +72,7 @@ cd clefable6
   chmod 440 azurill
   chmod 735 dusclops
   chmod 660 slowpoke
-cd..
+cd ..
 
 chmod 444 munchlax9
 
