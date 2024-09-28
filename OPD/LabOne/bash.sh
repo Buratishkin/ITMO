@@ -69,18 +69,18 @@ cd clefable6
   chmod 753 trubbish
   chmod 777 raichu
   chmod 644 eevee
-  .
+  chmod 440 azurill
   chmod 735 dusclops
   chmod 660 slowpoke
 cd..
 
 chmod 444 munchlax9
 
-.
+chmod 737 poliwhirl0
 cd poliwhirl0
-  .
+  chmod 062 piplup
   chmod 664 gothita
   chmod 600 ekans
 cd ..
 
-.  
+chmod 062 rufflet3
