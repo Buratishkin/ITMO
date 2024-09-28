@@ -56,25 +56,31 @@ touch rufflet3
 vim rufflet3
 #Задание прав на файлы и каталоги
 chmod 550 blastoise4
-  .
-  .  
+cd blastoise4
+  chmod 620 venonat
+  chmod 753 finneon  
   chmod 570 doduo
-  
+cd ..
+
 chmod 400 charizard6
 
 chmod 511 clefable6
-  .
-  .
+cd clefable6
+  chmod 753 trubbish
+  chmod 777 raichu
   chmod 644 eevee
   .
-  .
+  chmod 735 dusclops
   chmod 660 slowpoke
+cd..
+
+chmod 444 munchlax9
 
 .
-
-.
+cd poliwhirl0
   .
   chmod 664 gothita
-  .
+  chmod 600 ekans
+cd ..
 
 .  
