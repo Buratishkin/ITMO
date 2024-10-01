@@ -1,74 +1,53 @@
 #Cоздание каталога lab0 и переход к нему
 mkdir lab0
 cd lab0
-#Создание каталогов и файлов внутри lab0 + заполнение файлов при помощи vim
+#Создание каталогов и файлов внутри lab0 + заполнение файлов при помощи cat
 mkdir blastoise4
-cd blastoise4
-  touch venonat
-  vim venonat
-  mkdir finneon
-  mkdir doduo
-cd ..  
+cat > blastoise4/venonat
+mkdir blastoise4/finneon
+mkdir blastoise4/doduo
   
-touch charizard6
-vim charizard6
+cat > charizard6
 
 mkdir clefable6
-cd clefable6
-  mkdir trubbish
-  mkdir raichu
-  touch eevee
-  vim eevee
-  touch azurill
-  vim azurill
-  mkdir dusclops
-  touch slowpoke
-  vim slowpoke
-cd..
+mkdir clefable6/trubbish
+mkdir clefable6/raichu
+cat > clefable6/eevee
+cat > clefable6/azurill
+mkdir clefable6/dusclops
+cat > clefable6/slowpoke
 
-touch munchlax9
-vim munchlax9
+cat > munchlax9
 
 mkdir poliwhirl0
-cd poliwhir0
-  touch piplup
-  vim piplup
-  touch gothita
-  vim gothita  
-  touck ekans
-  vim ekans
-cd ..
+cat > poliwhirl0/piplup
+cat > poliwhirl0/gothita
+cat > poliwhirl0/ekans
 
-touch rufflet3
-vim rufflet3
+cat > rufflet3
+
 #Задание прав на файлы и каталоги
 chmod 550 blastoise4
-cd blastoise4
-  chmod 620 venonat
-  chmod 753 finneon  
-  chmod 570 doduo
-cd ..
+chmod 620 blastoise4/venonat
+chmod 753 blastoise4/finneon  
+chmod 570 blastoise4/doduo
 
 chmod 400 charizard6
 
 chmod 511 clefable6
-cd clefable6
-  chmod 753 trubbish
-  chmod 777 raichu
-  chmod 644 eevee
-  chmod 440 azurill
-  chmod 735 dusclops
-  chmod 660 slowpoke
-cd ..
+chmod 753 clefable6/trubbish
+chmod 777 clefable6/raichu
+chmod 644 clefable6/eevee
+chmod 440 clefable6/azurill
+chmod 735 clefable6/dusclops
+chmod 660 clefable6/slowpoke
 
 chmod 444 munchlax9
 
 chmod 737 poliwhirl0
-cd poliwhirl0
-  chmod 062 piplup
-  chmod 664 gothita
-  chmod 600 ekans
-cd ..
+chmod 062 poliwhirl0/piplup
+chmod 664 poliwhirl0/gothita
+chmod 600 poliwhirl0/ekans
 
 chmod 062 rufflet3
 #
