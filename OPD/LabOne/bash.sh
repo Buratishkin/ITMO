@@ -89,4 +89,6 @@ grep -n -i -v 'r$' munchlax9 2>&1
 
 ls -R poliwhirl0 2>/dev/null | sort -r
 
+ls -ltR 2>&1 | grep "on" | head -3
+
 
