@@ -66,3 +66,13 @@ ln rufflet3 clefable6/slowpokerufflet
 ln -s munchlax9 poliwhirl0/gothitamunchlax
 
 cat clefable6/azurill clefable6/slowpoke > charizard6_80
+
+chmod 750 blastoise4
+chmod 762 rufflet3
+chmod 770 blastoise4/doduo
+cp rufflet3 blastoise4/doduo
+
+cp charizard6 clefable6/slowpokecharizard
+
+cp -r clefable6 blastoise4/finneon
+#
