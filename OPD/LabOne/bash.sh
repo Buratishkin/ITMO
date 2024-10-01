@@ -81,7 +81,7 @@ chmod 570 blastoise4/doduo
 chmod 511 clefable6
 chmod 062 rufflet3
 #
-
+grep -rl 'e$' . | xargs wc -m | sort -n
 
 
 
