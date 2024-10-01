@@ -75,4 +75,9 @@ cp rufflet3 blastoise4/doduo
 cp charizard6 clefable6/slowpokecharizard
 
 cp -r clefable6 blastoise4/finneon
+
+chmod 550 blastoise4
+chmod 570 blastoise4/doduo
+chmod 511 clefable6
+chmod 062 rufflet3
 #
