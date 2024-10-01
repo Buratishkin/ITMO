@@ -91,6 +91,4 @@ ls -R poliwhirl0 2>/dev/null | sort -r
 
 ls -ltR 2>&1 | grep "on" | head -3
 
-ls -ltR | grep '^d' | head -n 2
-
-
+ls -ltR | grep 'd.*' | head -n 2
