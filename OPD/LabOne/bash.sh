@@ -81,3 +81,11 @@ chmod 570 blastoise4/doduo
 chmod 511 clefable6
 chmod 062 rufflet3
 #
+
+
+
+
+grep -n -i -v 'r$' munchlax9 2>&1
+
+
+
