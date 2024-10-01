@@ -83,7 +83,8 @@ chmod 062 rufflet3
 #
 grep -rl 'e$' . | xargs wc -m | sort -n
 
-
+touch /tmp/myerrors
+ls -ltR 2>/tmp/myerrors | grep "du" | head -2
 
 grep -n -i -v 'r$' munchlax9 2>&1
 
