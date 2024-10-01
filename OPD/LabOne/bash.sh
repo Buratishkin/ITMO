@@ -60,3 +60,9 @@ chmod 600 poliwhirl0/ekans
 
 chmod 062 rufflet3
 #
+chmod 711 clefable6
+ln rufflet3 clefable6/slowpokerufflet
+
+ln -s munchlax9 poliwhirl0/gothitamunchlax
+
+cat clefable6/azurill clefable6/slowpoke > charizard6_80
