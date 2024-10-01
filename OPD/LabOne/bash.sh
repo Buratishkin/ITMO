@@ -3,28 +3,37 @@ mkdir lab0
 cd lab0
 #Создание каталогов и файлов внутри lab0 + заполнение файлов при помощи cat
 mkdir blastoise4
-cat > blastoise4/venonat
+echo "Возможности Overland=6 Surface=2 Jump=3 Power=1
+Intelligence=4" > blastoise4/venonat
 mkdir blastoise4/finneon
 mkdir blastoise4/doduo
   
-cat > charizard6
+echo "Развитые способности Solar
+Power" > charizard6
 
 mkdir clefable6
 mkdir clefable6/trubbish
 mkdir clefable6/raichu
-cat > clefable6/eevee
-cat > clefable6/azurill
+echo "Ходы Body Slam Covet Double-Edge Heal Bell Helping Hand
+Hyper Voice Iron Tail Last Resort Mud-Slap Sleep Talk Snore
+Swift" > clefable6/eevee
+echo "Тип покемона NORMAL NONE" > clefable6/azurill
 mkdir clefable6/dusclops
-cat > clefable6/slowpoke
+echo "Живет Beach
+Freshwater" > clefable6/slowpoke
 
-cat > munchlax9
+echo "weight=231.5 height=24.0 atk=9
+def=4" > munchlax9
 
 mkdir poliwhirl0
-cat > poliwhirl0/piplup
-cat > poliwhirl0/gothita
-cat > poliwhirl0/ekans
+echo "Возможности Overland=4 Surface=6 Underwater=3 Jump=1
+Power=1  Intelligence=2 Fountain=2" > poliwhirl0/piplup
+echo "Живет Forest
+Urban" > poliwhirl0/gothita
+echo "satk=4 sdef=5 spd=6" > poliwhirl0/ekans
 
-cat > rufflet3
+echo "weight=23.1 height=20.0
+atk=8 def=5" > rufflet3
 
 #Задание прав на файлы и каталоги
 chmod 550 blastoise4
