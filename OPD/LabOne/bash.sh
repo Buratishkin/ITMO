@@ -1,3 +1,4 @@
+#!/bin/bash
 #Cоздание каталога lab0 и переход к нему
 mkdir lab0
 cd lab0
