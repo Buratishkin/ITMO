@@ -51,7 +51,7 @@ chmod 440 clefable6/azurill
 chmod 735 clefable6/dusclops
 chmod 660 clefable6/slowpoke
 
-chmod 444 munchlax9
+chmod a=r munchlax9
 
 chmod 737 poliwhirl0
 chmod 062 poliwhirl0/piplup
