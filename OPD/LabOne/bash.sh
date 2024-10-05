@@ -95,3 +95,7 @@ ls -ltR 2>&1 | grep "on" | head -3
 
 ls -ltR | grep 'd.*' | head -n 2
 #
+rm munchlax9
+
+chmod u+w clefable6
+rm clefable6/eevee
