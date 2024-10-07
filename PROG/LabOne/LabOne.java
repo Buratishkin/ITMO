@@ -1,13 +1,13 @@
 //вариант 30903
 public class LabOne {
     public static double sitOne(double num) { //когда w[i] == 10
-        return Round(Math.sin(num));
+        return (Math.sin(num));
     }
     public static double sitTwo(double num) { //когда w[i] в {6, 12, 14, 16, 18}
         double el = Math.pow(num, num/2);
         el = Math.exp(el);
         el = Math.tan(el);
-        return Round(el);
+        return (el);
     }
     public static double sitThree(double num) { //остальные случаи
         double number, power;
@@ -22,7 +22,7 @@ public class LabOne {
         power = Math.cbrt(-power);
         power = Math.exp(power);
         power = Math.asin(power);
-        return Round(Math.pow(number, power));
+        return (Math.pow(number, power));
     }
 
     public static void print(double[][] arr){ //вывод двухмерного массива
