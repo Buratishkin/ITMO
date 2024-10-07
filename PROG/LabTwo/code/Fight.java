@@ -1,5 +1,6 @@
 package LabTwo;
 import ru.ifmo.se.pokemon.*;
+import LabTwo.MyPokemons.*;
 
 public class Fight {
     public static void main(String[] args) {
