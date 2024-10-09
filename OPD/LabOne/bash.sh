@@ -1,5 +1,7 @@
-#-1
 #!/bin/bash
+until rm -rf `find lab0 2> /dev/null` 2> /dev/null; do
+chmod -R 777 lab0 2> /dev/null
+done
 #0
 mkdir lab0
 cd lab0
