@@ -62,22 +62,23 @@ chmod 600 poliwhirl0/ekans
 
 chmod 062 rufflet3
 #3
+#cоздать жесткую ссылку для файла rufflet3 с именем lab0/clefable6/slowpokerufflet
 chmod 711 clefable6
 ln rufflet3 clefable6/slowpokerufflet
-
+#cоздать символическую ссылку для файла munchlax9 с именем lab0/poliwhirl0/gothitamunchlax
 ln -s munchlax9 poliwhirl0/gothitamunchlax
-
+#объеденить содержимое файлов lab0/clefable6/azurill, lab0/clefable6/slowpoke, в новый файл lab0/charizard6_80
 cat clefable6/azurill clefable6/slowpoke > charizard6_80
-
+#создать символическую ссылку c именем Copy_45 на директорию poliwhirl0 в каталоге lab0
 chmod 750 blastoise4
 chmod 762 rufflet3
 chmod 770 blastoise4/doduo
 cp rufflet3 blastoise4/doduo
-
+#скопировать файл rufflet3 в директорию lab0/blastoise4/doduo
 cp charizard6 clefable6/slowpokecharizard
-
+#скопировать содержимое файла charizard6 в новый файл lab0/clefable6/slowpokecharizard
 cp -r clefable6 blastoise4/finneon
-
+#скопировать рекурсивно директорию clefable6 в директорию lab0/blastoise4/finneon
 chmod 550 blastoise4
 chmod 570 blastoise4/doduo
 chmod 511 clefable6
