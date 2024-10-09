@@ -72,7 +72,7 @@ ln -s munchlax9 poliwhirl0/gothitamunchlax
 #объеденить содержимое файлов lab0/clefable6/azurill, lab0/clefable6/slowpoke, в новый файл lab0/charizard6_80
 cat clefable6/azurill clefable6/slowpoke > charizard6_80
 #создать символическую ссылку c именем Copy_45 на директорию poliwhirl0 в каталоге lab0
-
+ln -s Copy_45 lab0/poliwhirl0
 #скопировать файл rufflet3 в директорию lab0/blastoise4/doduo
 chmod 750 blastoise4
 chmod 762 rufflet3
