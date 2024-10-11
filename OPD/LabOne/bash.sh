@@ -113,6 +113,7 @@ ls -ltR 2>&1 | grep "on" | head -3
 echo "4.6"
 ls -ltR | grep 'd.*' | head -n 2
 #5
+chmod 744 munchlax9 
 rm munchlax9
 
 chmod u+w clefable6
