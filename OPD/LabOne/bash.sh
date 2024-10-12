@@ -127,3 +127,7 @@ rm clefable6/slowpokeruffl*
 chmod 762 poliwhirl0/piplup
 rm -r poliwhirl0
 
+chmod 750 blastoise4
+chmod 770 blastoise4/doduo
+rm -r blastoise4/doduo
+chmod 550 blastoise4
