@@ -89,7 +89,6 @@ cp charizard6 clefable6/slowpokecharizard
 echo "3.7"
 #скопировать рекурсивно директорию clefable6 в директорию lab0/blastoise4/finneon
 cp -r clefable6 blastoise4/finneon
-echo "3.8"
 #возвращаю все права доступа обратно
 chmod 550 blastoise4
 chmod 570 blastoise4/doduo
@@ -121,20 +120,21 @@ ls -ltR 2>&1 | grep "on" | head -3
 echo "4.6"
 ls -ltR | grep 'd.*' | head -n 2
 #5
+echo "5.1"
 chmod 744 munchlax9 
 rm munchlax9
-
+echo "5.2"
 chmod u+w clefable6
 rm clefable6/eevee
-
+echo "5.3"
 ls -l Copy_* | grep ^l | awk '{print $9}' | xargs rm
-
+echo "5.4"
 chmod 762 clefable6/slowpokerufflet
 rm clefable6/slowpokeruffl*
-
+echo "5.5"
 chmod 762 poliwhirl0/piplup
 rm -r poliwhirl0
-
+echo "5.6"
 chmod 750 blastoise4
 chmod 770 blastoise4/doduo
 rm -r blastoise4/doduo
