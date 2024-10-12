@@ -129,7 +129,7 @@ rm clefable6/eevee
 echo "5.3"
 ls -l Copy_* | grep ^l | awk '{print $9}' | xargs rm
 echo "5.4"
-chmod 762 clefable6/slowpokerufflet
+chmod 762 clefable6/slowpokerufflet4
 rm clefable6/slowpokeruffl*
 echo "5.5"
 chmod 762 poliwhirl0/piplup
