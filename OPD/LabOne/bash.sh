@@ -67,10 +67,10 @@ chmod 062 rufflet3
 echo "3.1"
 #cоздать жесткую ссылку для файла rufflet3 с именем lab0/clefable6/slowpokerufflet
 chmod 711 clefable6
-ln clefable6/slowpokerufflet rufflet3
+ln rufflet3 clefable6/slowpokerufflet4
 echo "3.2"
 #cоздать символическую ссылку для файла munchlax9 с именем lab0/poliwhirl0/gothitamunchlax
-ln -s poliwhirl0/gothitamunchlax munchlax9 
+ln -s munchlax9 poliwhirl0/gothitamunchlax 
 echo "3.3"
 #объеденить содержимое файлов lab0/clefable6/azurill, lab0/clefable6/slowpoke, в новый файл lab0/charizard6_80
 cat clefable6/azurill clefable6/slowpoke > charizard6_80
