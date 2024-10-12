@@ -123,3 +123,7 @@ ls -l Copy_* | grep ^l | awk '{print $9}' | xargs rm
 
 chmod 762 clefable6/slowpokerufflet
 rm clefable6/slowpokeruffl*
+
+chmod 762 poliwhirl0/piplup
+rm -r poliwhirl0
+
