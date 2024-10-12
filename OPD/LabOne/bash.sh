@@ -118,3 +118,5 @@ rm munchlax9
 
 chmod u+w clefable6
 rm clefable6/eevee
+
+rm Copy_45
