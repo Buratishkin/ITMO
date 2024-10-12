@@ -119,4 +119,5 @@ rm munchlax9
 chmod u+w clefable6
 rm clefable6/eevee
 
-rm Copy_45
+ls -l Copy_* | grep ^l | awk '{print $9}' | xargs rm
+
