@@ -121,3 +121,5 @@ rm clefable6/eevee
 
 ls -l Copy_* | grep ^l | awk '{print $9}' | xargs rm
 
+chmod 762 clefable6/slowpokerufflet
+rm clefable6/slowpokeruffl*
