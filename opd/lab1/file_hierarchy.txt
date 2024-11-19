@@ -1,0 +1,70 @@
+total 20
+dr-xr-x---  4 s466903 studs  5 26 окт.  10:09 blastoise4
+-r--------  1 s466903 studs 52 26 окт.  10:09 charizard6
+-rw-r--r--  1 s466903 studs 64 26 окт.  10:09 charizard6_80
+dr-x--x--x  5 s466903 studs 10 26 окт.  10:09 clefable6
+lrwxr-xr-x  1 s466903 studs 10 26 окт.  10:09 Copy_45 -> poliwhirl0
+-r--r--r--  1 s466903 studs 37 26 окт.  10:09 munchlax9
+drwx-wxrwx  2 s466903 studs  6 26 окт.  10:09 poliwhirl0
+----rw--w-  2 s466903 studs 36 26 окт.  10:09 rufflet3
+
+lab0/blastoise4:
+total 2
+dr-xrwx---  2 s466903 studs  3 26 окт.  10:09 doduo
+drwxr-x-wx  3 s466903 studs  3 26 окт.  10:09 finneon
+-rw--w----  1 s466903 studs 74 26 окт.  10:09 venonat
+
+lab0/blastoise4/doduo:
+total 1
+-rwxr-----  1 s466903 studs 36 26 окт.  10:09 rufflet3
+
+lab0/blastoise4/finneon:
+total 9
+drwx--x--x  5 s466903 studs 10 26 окт.  10:09 clefable6
+
+lab0/blastoise4/finneon/clefable6:
+total 8
+-r--r-----  1 s466903 studs  36 26 окт.  10:09 azurill
+drwx--xr-x  2 s466903 studs   2 26 окт.  10:09 dusclops
+-rw-r--r--  1 s466903 studs 126 26 окт.  10:09 eevee
+drwxr-xr-x  2 s466903 studs   2 26 окт.  10:09 raichu
+-rw-r-----  1 s466903 studs  28 26 окт.  10:09 slowpoke
+-r--------  1 s466903 studs  52 26 окт.  10:09 slowpokecharizard
+-rwxr-----  1 s466903 studs  36 26 окт.  10:09 slowpokerufflet4
+drwxr-x--x  2 s466903 studs   2 26 окт.  10:09 trubbish
+
+lab0/blastoise4/finneon/clefable6/dusclops:
+total 0
+
+lab0/blastoise4/finneon/clefable6/raichu:
+total 0
+
+lab0/blastoise4/finneon/clefable6/trubbish:
+total 0
+
+lab0/clefable6:
+total 8
+-r--r-----  1 s466903 studs  36 26 окт.  10:09 azurill
+drwx-wxr-x  2 s466903 studs   2 26 окт.  10:09 dusclops
+-rw-r--r--  1 s466903 studs 126 26 окт.  10:09 eevee
+drwxrwxrwx  2 s466903 studs   2 26 окт.  10:09 raichu
+-rw-rw----  1 s466903 studs  28 26 окт.  10:09 slowpoke
+-r--------  1 s466903 studs  52 26 окт.  10:09 slowpokecharizard
+----rw--w-  2 s466903 studs  36 26 окт.  10:09 slowpokerufflet4
+drwxr-x-wx  2 s466903 studs   2 26 окт.  10:09 trubbish
+
+lab0/clefable6/dusclops:
+total 0
+
+lab0/clefable6/raichu:
+total 0
+
+lab0/clefable6/trubbish:
+total 0
+
+lab0/poliwhirl0:
+total 6
+-rw-------  1 s466903 studs 20 26 окт.  10:09 ekans
+-rw-rw-r--  1 s466903 studs 24 26 окт.  10:09 gothita
+lrwxr-xr-x  1 s466903 studs  9 26 окт.  10:09 gothitamunchlax -> munchlax9
+----rw--w-  1 s466903 studs 99 26 окт.  10:09 piplup
