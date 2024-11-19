@@ -1,0 +1,116 @@
+HoopaConfined Хупа из команды желтых вступает в бой!
+Blitze Блитз из команды зеленых вступает в бой!
+HoopaConfined Хупа применил Psychic. 
+Blitze Блитз теряет 18 здоровья.
+Blitze Блитз теряет сознание.
+Zebstrika Зебра из команды зеленых вступает в бой!
+Zebstrika Зебра применил Overheat. 
+HoopaConfined Хупа теряет 8 здоровья.
+Zebstrika Зебра уменьшает специальную атаку.
+
+HoopaConfined Хупа применил Facade. 
+Zebstrika Зебра теряет 6 здоровья.
+
+Zebstrika Зебра промахивается
+
+HoopaConfined Хупа применил DreamEater. 
+
+Zebstrika Зебра применил Swagger. 
+HoopaConfined Хупа не замечает воздействие типа NORMAL
+
+HoopaConfined Хупа применил Swagger. 
+Zebstrika Зебра увеличивает атаку.
+
+Zebstrika Зебра растерянно попадает по себе. 
+Zebstrika Зебра теряет 6 здоровья.
+
+HoopaConfined Хупа применил DreamEater. 
+
+Zebstrika Зебра применил TailWhip. 
+HoopaConfined Хупа не замечает воздействие типа NORMAL
+
+HoopaConfined Хупа применил Psychic. 
+Zebstrika Зебра теряет 10 здоровья.
+Zebstrika Зебра теряет сознание.
+Sewaddle Сева из команды зеленых вступает в бой!
+HoopaConfined Хупа применил Swagger. 
+Sewaddle Сева увеличивает атаку.
+
+Sewaddle Сева применил Swagger. 
+HoopaConfined Хупа не замечает воздействие типа NORMAL
+
+HoopaConfined Хупа применил DreamEater. 
+
+Sewaddle Сева применил Swagger. 
+HoopaConfined Хупа не замечает воздействие типа NORMAL
+
+HoopaConfined Хупа применил Facade. 
+Sewaddle Сева теряет 8 здоровья.
+
+Sewaddle Сева применил Swagger. 
+HoopaConfined Хупа не замечает воздействие типа NORMAL
+
+HoopaConfined Хупа применил Facade. 
+Sewaddle Сева теряет 10 здоровья.
+Sewaddle Сева теряет сознание.
+Swadloon Свад из команды зеленых вступает в бой!
+HoopaConfined Хупа применил Facade. 
+Swadloon Свад теряет 8 здоровья.
+
+Swadloon Свад применил GrassWhistle. 
+HoopaConfined Хупа засыпает
+
+Swadloon Свад промахивается
+
+
+HoopaConfined Хупа применил Facade. 
+Swadloon Свад теряет 8 здоровья.
+
+Swadloon Свад применил Swagger. 
+HoopaConfined Хупа не замечает воздействие типа NORMAL
+
+HoopaConfined Хупа применил Swagger. 
+Swadloon Свад увеличивает атаку.
+
+Swadloon Свад применил GrassWhistle. 
+HoopaConfined Хупа засыпает
+
+HoopaConfined Хупа применил Swagger. 
+Swadloon Свад увеличивает атаку.
+
+Swadloon Свад растерянно попадает по себе. 
+Swadloon Свад теряет 5 здоровья.
+Swadloon Свад теряет сознание.
+Leavanny Лёва из команды зеленых вступает в бой!
+Leavanny Лёва промахивается
+
+HoopaConfined Хупа применил DreamEater. 
+
+Leavanny Лёва промахивается
+
+HoopaConfined Хупа применил Facade. 
+Leavanny Лёва теряет 7 здоровья.
+
+Leavanny Лёва применил GrassWhistle. 
+HoopaConfined Хупа засыпает
+
+HoopaConfined Хупа применил DreamEater. 
+
+Leavanny Лёва применил Slash. 
+HoopaConfined Хупа теряет 2 здоровья.
+
+
+Leavanny Лёва применил Swagger. 
+HoopaConfined Хупа не замечает воздействие типа NORMAL
+
+HoopaConfined Хупа применил Facade. 
+Leavanny Лёва теряет 6 здоровья.
+
+Leavanny Лёва применил GrassWhistle. 
+HoopaConfined Хупа засыпает
+
+HoopaConfined Хупа применил Psychic. 
+Leavanny Лёва теряет 12 здоровья.
+Leavanny Лёва теряет сознание.
+В команде зеленых не осталось покемонов.
+Команда желтых побеждает в этом бою!
