@@ -18,7 +18,7 @@ public class MainCharacter extends Human implements Observable{
 
     @Override
     public void observe(Item spyglass, Moves move) {
-        System.out.printf("я явно различал в %s %s как они %s\n", spyglass.getSimpleWeight(), spyglass.toString(), move);
+        System.out.printf("я явно различал в %s %s как они %s\n", spyglass.getSimpleWeight(), spyglass.toString(), move.toString());
     }
 
     private final double inventoryMaxWeight = 50.0;
@@ -43,7 +43,7 @@ public class MainCharacter extends Human implements Observable{
 
     public void move(Landscapes landscape, int situation) {
         if (situation == 0)
-            System.out.printf("я пошёл к %s\n", landscape);
+            System.out.printf("я пошёл к %s\n", landscape.toString());
         else if (situation == 1) {
             System.out.printf("и, не теряя времени, отправился к тому %s, откуда открыл первые признаки этих людей\n", landscape);
         }

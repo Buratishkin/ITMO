@@ -2,8 +2,21 @@ package records;
 
 import classes.characters.Savage;
 import enums.WeatherEvents;
+import interfaces.Repairable;
 
-public record Boat(Savage[] users) {
+import java.util.Random;
+
+public record Boat(Savage[] users) implements Repairable{
+    @Override
+    public void repair() {
+        Random random = new Random(10);
+        if (random.nextInt() < 4) {
+            System.out.println("Лодка не работает");
+        } else {
+            System.out.println("Лодка работает");
+        }
+    }
+
     @Override
     public String toString() {
         String line = "";
@@ -18,7 +31,7 @@ public record Boat(Savage[] users) {
     }
 
     public void start(WeatherEvents weatherEvent) {
-        System.out.printf("лишь %s %s сели в лодку\n", weatherEvent, toString());
+        System.out.printf("лишь %s %s сели в лодку\n", weatherEvent.toString(), toString());
     }
 
     public void afterStart() {

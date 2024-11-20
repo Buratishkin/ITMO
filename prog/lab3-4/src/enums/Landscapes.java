@@ -8,6 +8,7 @@ public enum Landscapes {
     MOUNTAIN("горе");
 
     private final String describtion;
+
     Landscapes(String describtion) {
         this.describtion = describtion;
     }

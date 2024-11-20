@@ -57,9 +57,9 @@ public class Main {
         //добравшись туда, я взглянул в сторону моря и увидел лодку с <имена дикарей2>, направлявшиеся от острова к материку
         mainCharacter.arrive(boat2);
     }
-    public static <E> E getRandomFromEnum(E[] values){
+    public static <T> T getRandomFromEnum(T[] values){
         Random random = new Random();
-        int randomIndex = random.nextInt(values.length); // Генерируем случайный индекс
+        int randomIndex = random.nextInt(values.length);
         return values[randomIndex];
     }
 }
