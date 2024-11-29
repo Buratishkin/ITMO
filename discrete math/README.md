@@ -1,3 +1,5 @@
+Решатор дз - https://github.com/Gastozavr/itmo/tree/main/1-2%20Discrete%20math
+
 дз1 - вариант 48
 
 дз2 - вариант 25
