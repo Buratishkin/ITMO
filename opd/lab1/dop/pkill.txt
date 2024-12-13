@@ -1,0 +1,25 @@
+#!/bin/bash
+remove_brackets() {
+  proc_name=$1
+  while [[ "$proc_name" =~ \) ]]; do
+      proc_name=${proc_name::-1}
+    done
+    while [[ "$proc_name" =~ \(	 ]]; do
+      proc_name=${proc_name:1}
+    done
+}
+
+curr_proc=$1
+for dir in /proc/[0-9]*; do
+  pid_dir="$dir/stat"
+  if [ -f "$pid_dir" ]; then
+    pid=$(awk '{print $1}' "$pid_dir")
+    proc_name=$(awk '{print $2}' "$pid_dir")
+    if [[ ! "$proc_name" =~ / ]]; then
+      remove_brackets $proc_name
+      if [[ "$proc_name" == "$curr_proc"* ]]; then
+        kill "$pid"
+      fi 
+    fi  
+  fi
+done
