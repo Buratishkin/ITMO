@@ -1,0 +1,253 @@
+%починить угол, вставить угол
+\thispagestyle{empty} % нет номеров страниц
+\documentclass[14pt,a4paper]{report}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[10pt]{extsizes}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{graphicx, caption}
+\usepackage{wrapfig}
+\usepackage{amssymb}
+\usepackage{geometry}
+
+    
+\geometry{top=4em,right=2em,left=2em,bottom=4em}
+
+\begin{document}
+\newcommand{\Mainclt}{\raisebox{0pt}[\headheight][30pt]{\vbox{\hbox to\textwidth{74\hfilКНИГА I ПРЕДЛ. XLVIII. ТЕОРЕМА\hfil}}}}
+
+\begin{minipage}[t]{0.3\textwidth}
+    \hfill \\
+    \begin{center}
+    \begin{tikzpicture}
+        \draw[red, fill=red] (0, -4) --  (0.6,-4) arc(0:90:0.6) -- cycle;
+        \draw[yellow, fill=yellow] (0, -4) -- (0, -3.4) arc(90:180:0.6) -- cycle;
+    
+        \draw[dashed, black, ultra thick] (-2,-4) --  (0,-4);
+        \draw[black, ultra thick] (0,-4) -- (2,-4);
+        \draw[blue, ultra thick] (0,-4) -- (0,-1);
+        \draw[red, ultra thick] (0,-1) -- (2,-4);
+        \draw[dashed, red, ultra thick] (0,-1) -- (-2,-4);
+    
+        \node[below] at (-2.2, -4) {\tiny$D$};
+        \node[below] at (0, -4) {\tiny$A$};
+        \node[below] at (2.2, -4) {\tiny$C$};
+        \node[above] at (0, -1) {\tiny$B$};
+    \end{tikzpicture}
+    \end{center}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.57\textwidth}
+    \Mainclt
+    \begin{wrapfigure}{l}{0.2\linewidth}
+        \includegraphics[width=0.9\linewidth]{буква.jpg}
+    \end{wrapfigure}\\
+    \slshape сли \textit{в треугольнике квадрат одной стороны}
+    \begin{tikzpicture}
+        \draw[blue,ultra thick] (0,0) -- (1,0);
+        \node[above] at (0,0) {\tiny B};
+        \node[above] at (1,0) {\tiny C};
+    \end{tikzpicture}
+    \textit{равен сумме квадратов двух других сторон}
+    \begin{tikzpicture}
+        \draw[blue,ultra thick] (0,0) -- (1,0);
+        \node[above] at (0,0) {\tiny A};
+        \node[above] at (1,0) {\tiny B};
+    \end{tikzpicture} 
+    \textit{и}
+    \begin{tikzpicture}
+        \draw[black,ultra thick] (0,0) -- (1,0);
+        \node[above] at (0,0) {\tiny A};
+        \node[above] at (1,0) {\tiny C};
+    \end{tikzpicture},
+    \textit{то угол}
+    \begin{tikzpicture}
+        \raisebox{-1 em}{
+            \draw[red, fill=red] (0, -4) --  (0.6,-4) arc(0:90:0.6) -- cycle;
+            \node[above] at (0, -3.4) {\tiny B};
+            \node[below] at (-0.1, -3.9) {\tiny A};
+            \node[right] at (0.6, -4) {\tiny C};
+        }
+    \end{tikzpicture}
+    \textit{заключенный между этими двумя сторонами прямой.}
+
+    \upshape
+
+    \begin{center}
+        Проведем 
+        \begin{tikzpicture}
+            \draw[dashed,black,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny A};
+            \node[above] at (1,0) {\tiny D};
+        \end{tikzpicture}
+        перпендикуляр
+        \begin{tikzpicture}
+            \draw[blue,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny A};
+            \node[above] at (1,0) {\tiny B};
+        \end{tikzpicture} \\
+        и = 
+        \begin{tikzpicture}
+            \draw[black,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny A};
+            \node[above] at (1,0) {\tiny C};
+        \end{tikzpicture}
+        (пр. I. \unskip
+        \begin{scriptsize}
+            II
+        \end{scriptsize},I.\raisebox{-0.2em}{3}) \\
+        также проведем 
+        \begin{tikzpicture}
+            \draw[dashed,red,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny B};
+            \node[above] at (1,0) {\tiny D};
+        \end{tikzpicture}. \\
+        Поскольку
+        \begin{tikzpicture}
+            \draw[dashed,black,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny A};
+            \node[above] at (1,0) {\tiny D};
+        \end{tikzpicture}
+        =
+        \begin{tikzpicture}
+            \draw[black,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny A};
+            \node[above] at (1,0) {\tiny C};
+        \end{tikzpicture}
+        (постр.) \\
+        \begin{tikzpicture}
+            \draw[dashed,black,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny A};
+            \node[above] at (1,0) {\tiny D\raisebox{+0.6em}{2}};
+        \end{tikzpicture}  
+        =
+        \begin{tikzpicture}
+            \draw[black,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny A};
+            \node[above] at (1,0) {\tiny C\raisebox{+0.6em}{2}};
+        \end{tikzpicture}; \\
+        $\therefore$ 
+        \begin{tikzpicture}
+            \draw[dashed,black,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny A};
+            \node[above] at (1,0) {\tiny D\raisebox{+0.6em}{2}};
+        \end{tikzpicture}  
+        + 
+        \begin{tikzpicture}
+            \draw[blue,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny A};
+            \node[above] at (1,0) {\tiny B\raisebox{+0.6em}{2}};
+        \end{tikzpicture}
+        =
+        \begin{tikzpicture}
+            \draw[black,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny A};
+            \node[above] at (1,0) {\tiny C\raisebox{+0.6em}{2}};
+        \end{tikzpicture};
+        +
+        \begin{tikzpicture}
+            \draw[blue,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny A};
+            \node[above] at (1,0) {\tiny B\raisebox{+0.6em}{2}};
+        \end{tikzpicture} \\
+        но
+        \begin{tikzpicture}
+            \draw[dashed,black,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny A};
+            \node[above] at (1,0) {\tiny D\raisebox{+0.6em}{2}};
+        \end{tikzpicture}  
+        +
+        \begin{tikzpicture}
+            \draw[blue,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny A};
+            \node[above] at (1,0) {\tiny B\raisebox{+0.6em}{2}};
+        \end{tikzpicture}
+        =
+        \begin{tikzpicture}
+            \draw[dashed,red,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny B};
+            \node[above] at (1,0) {\tiny D};
+        \end{tikzpicture}
+        (пр. I.\raisebox{-0.2em}{47}), \\
+        и   
+        \begin{tikzpicture}
+            \draw[black,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny A};
+            \node[above] at (1,0) {\tiny C\raisebox{+0.6em}{2}};
+        \end{tikzpicture};
+        +
+        \begin{tikzpicture}
+            \draw[blue,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny A};
+            \node[above] at (1,0) {\tiny B\raisebox{+0.6em}{2}};
+        \end{tikzpicture}
+        = 
+        \begin{tikzpicture}
+            \draw[red,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny B};
+            \node[above] at (1,0) {\tiny C\raisebox{+0.6em}{2}};
+        \end{tikzpicture}
+        (гип.) \\
+        $\therefore$
+        \begin{tikzpicture}
+            \draw[dashed,red,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny B};
+            \node[above] at (1,0) {\tiny D\raisebox{+0.6em}{2}};
+        \end{tikzpicture}
+        =
+        \begin{tikzpicture}
+            \draw[red,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny B};
+            \node[above] at (1,0) {\tiny C\raisebox{+0.6em}{2}};
+        \end{tikzpicture}, \\
+        $\therefore$
+        \begin{tikzpicture}
+            \draw[dashed,red,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny B};
+            \node[above] at (1,0) {\tiny D};
+        \end{tikzpicture}
+        =
+        \begin{tikzpicture}
+            \draw[red,ultra thick] (0,0) -- (1,0);
+            \node[above] at (0,0) {\tiny B};
+            \node[above] at (1,0) {\tiny C};
+        \end{tikzpicture}; \\
+        и $\therefore$
+        \begin{tikzpicture}
+            \raisebox{-1.4em}{
+                \draw[yellow, fill=yellow] (0, -4) -- (0, -3.4) arc(90:180:0.6) -- cycle;
+                \node[above] at (0, -3.4) {\tiny B};
+                \node[below] at (0.1, -3.9) {\tiny A};
+                \node[left] at (-0.6, -4){\tiny D};
+            }
+        \end{tikzpicture}
+        =
+        \begin{tikzpicture}
+            \raisebox{-1.4em}{
+                \draw[red, fill=red] (0, -4) --  (0.6,-4) arc(0:90:0.6) -- cycle;
+                \node[above] at (0, -3.4) {\tiny B};
+                \node[below] at (-0.1, -3.9) {\tiny A};
+                \node[right] at (0.6, -4){\tiny C};
+            }
+        \end{tikzpicture}
+        (пр. I.8), \\
+        следовательно
+        \begin{tikzpicture}
+            \raisebox{-1.4em}{
+                \draw[red, fill=red] (0, -4) --  (0.6,-4) arc(0:90:0.6) -- cycle;
+                \node[above] at (0, -3.4) {\tiny B};
+                \node[below] at (-0.1, -3.9) {\tiny A};
+                \node[right] at (0.6, -4){\tiny C};
+            }
+        \end{tikzpicture}
+        прямой угол
+    \end{center}
+
+    \begin{flushright}
+        ч. т. д.
+    \end{flushright}
+    
+\end{minipage}
+
+\end{document}
